@@ -113,7 +113,7 @@ a {
   padding: 100px 0;
 }
 .we-are-gamer-section img{
-    width: 800px;
+    width: 700px;
 }
 .we-are-gamer {
   text-align: right;
@@ -126,6 +126,7 @@ a {
   color: #534c64;
   font-weight: 400;
   line-height: 30px;
+  width: 520px;
 }
 .know-more-btn {
   margin-right: 0px;
@@ -165,6 +166,13 @@ a {
     width: 100%;
     padding: 0 20px;
   }
+  .we-are-gamer{
+    text-align: center;
+  }
+  .we-are-gamer-description{
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 /* Tablet Responsive */
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -177,6 +185,13 @@ a {
     padding-top: 20px;
   }
   .banner img {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .we-are-gamer{
+    text-align: center;
+  }
+  .we-are-gamer-description{
     width: 100%;
     padding: 0 20px;
   }
