@@ -108,12 +108,12 @@ a {
   font-size: 1.25rem;
   font-weight: 600;
 }
-/* we-are-gamer */
+/* We Are Gamer */
 .we-are-gamer-section {
   padding: 100px 0;
 }
-.we-are-gamer-section img{
-    width: 700px;
+.we-are-gamer-section img {
+  width: 700px;
 }
 .we-are-gamer {
   text-align: right;
@@ -144,10 +144,44 @@ a {
   font-size: 2rem;
   font-weight: 700;
 }
-
-
-
-
+/* Online Games Section */
+.online-games-section {
+  margin: 120px 0px;
+}
+.online-games-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.funny-video-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+.online-games-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.online-games-card {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.card {
+  width: 342px;
+  height: 400px;
+}
+.card img {
+  width: 100%;
+  margin-bottom: 24px;
+}
 /* Mobile Responsive */
 
 @media screen and (max-width: 425px) {
@@ -158,6 +192,10 @@ a {
     flex-direction: column;
     gap: 60px;
   }
+  .online-games-card{
+    flex-direction: column;
+    gap: 100px;
+  }
   .logo-name,
   nav ul li {
     margin-left: 0;
@@ -166,12 +204,22 @@ a {
     width: 100%;
     padding: 0 20px;
   }
-  .we-are-gamer{
+  .we-are-gamer {
     text-align: center;
   }
-  .we-are-gamer-description{
+  .we-are-gamer-description {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 0px;
+  }
+  .online-games-card{
+    align-items: center;
+  }
+  .online-games-description {
+    text-align: center;
+    padding: 0px 25px;
+  }
+  .card p{
+    text-align: center;
   }
 }
 /* Tablet Responsive */
@@ -188,11 +236,21 @@ a {
     width: 100%;
     padding: 0 20px;
   }
-  .we-are-gamer{
+  .we-are-gamer {
     text-align: center;
   }
-  .we-are-gamer-description{
+  .we-are-gamer-description {
     width: 100%;
     padding: 0 20px;
+  }
+  .online-games-card{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .online-games-card{
+    align-items: center;
+  }
+  .card p{
+    text-align: center;
   }
 }
