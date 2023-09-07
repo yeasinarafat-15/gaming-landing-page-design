@@ -216,7 +216,7 @@ a {
   right: 160px;
 }
 /* Games Section*/
-.games{
+.games {
   background-color: rgba(255, 66, 164, 0.14);
   padding: 120px 0px;
 }
@@ -225,7 +225,6 @@ a {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-  
 }
 .single-card {
   display: flex;
@@ -245,19 +244,78 @@ a {
   font-size: 1.25rem;
   font-weight: 600;
 }
-.game-card-second{
+.game-card-second {
   margin-top: 28px;
+}
+
+/* Footer */
+footer {
+  background: #0b0223;
+  padding: 120px 0px;
+  text-align: center;
+}
+.footer-logo-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 20px;
+  color: white;
+}
+.footer-logo {
+  justify-content: center;
+}
+.footer-first-menu {
+  margin: 55px 0px;
+}
+.footer-first-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  list-style: none;
+}
+.footer-first-menu ul li a {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.social-media {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.social-media i {
+  font-size: 50px;
+}
+.footer-second-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  list-style: none;
+}
+.footer-second-menu ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.second-footer-section p {
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
 }
 /* Mobile Responsive */
 
 @media screen and (max-width: 425px) {
-  nav,
-  .logo-section,
-  nav ul,
+  
   .banner,
-  .play-instantly{
+  .play-instantly {
     flex-direction: column;
     gap: 60px;
+  }
+  nav,
+  nav ul{
+    flex-direction: column;
+    gap: 30px;
   }
   .online-games-card {
     flex-direction: column;
@@ -303,19 +361,35 @@ a {
   .play-instantly-text {
     text-align: center;
   }
-  .games-card{
+  .footer-first-menu ul,
+  .footer-second-menu ul {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .social-media{
+    flex-wrap: wrap;
+    padding: 0px 60px;
+  }
+  .games-card {
     flex-direction: column;
     gap: 20px;
     padding: 0 70px;
   }
-  .game-card-second{
+  .game-card-second {
     margin-top: 20px;
+  }
+  .second-footer-section p{
+    margin-top: 75px;
+    padding: 0 50px;
   }
 }
 
 /* Tablet Responsive */
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  nav,
+  nav{
+    flex-direction: column;
+    gap: 30px;
+  }
   .banner,
   .play-instantly {
     flex-direction: column;
@@ -363,13 +437,17 @@ a {
   .play-instantly-text {
     text-align: center;
   }
-  .games-card{
+  .games-card {
     /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 20px;
     padding: 0 70px;
   }
-  .game-card-second{
+  .game-card-second {
     margin-top: 20px;
+  }
+  .footer-first-menu ul,
+  .footer-second-menu ul {
+    gap: 40px;
   }
 }
